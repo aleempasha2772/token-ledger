@@ -46,10 +46,9 @@ all         = [
 dev = ["pytest", "pytest-asyncio", "tiktoken"]
 
 [project.urls]
-Homepage      = "https://github.com/aleempasha/token-ledger"
-Repository    = "https://github.com/aleempasha/token-ledger"
-Documentation = "https://github.com/aleempasha/token-ledger#readme"
-"Bug Tracker" = "https://github.com/aleempasha/token-ledger/issues"
+Homepage      = "https://github.com/aleempasha2772/token-ledger"
+Repository    = "https://github.com/aleempasha2772/token-ledger"
+Documentation = "https://github.com/aleempasha2772/token-ledger#readme"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/token_ledger"]
