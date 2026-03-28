@@ -4,11 +4,12 @@ Track token usage and cost across LLM calls with one decorator.
 
 ## Install
 
-pip install llm-tracker
+pip install token-ledger
+
 
 ## Quick Start
 
-from llm_tracker import track_llm_cost, configure
+from token_ledger import track_llm_cost, configure
 
 configure(project_name="my_app", budget=5.00)
 
