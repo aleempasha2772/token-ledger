@@ -20,7 +20,7 @@ from .exceptions  import BudgetExceededError
 from .pricing     import get_pricing
 from .trace       import Trace, TokenUsage, CostBreakdown
 
-__version__ = "0.1.0"
+__version__ = "0.2.0"
 __all__ = [
     "track_llm_cost",
     "track_embedding_cost",
