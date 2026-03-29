@@ -14,7 +14,7 @@ from token_ledger import configure, track_llm_cost
 configure(
     project_name = "test_run",
     budget       = 1.0,
-    output_dir   = ".",
+    output_dir   ="..",
     print_each   = True,
     save_on_exit = True,
 )
